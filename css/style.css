@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    left: 100%;
+    transform: translate(-100%);
+    top: -30px;
+}
+
+.redvelvet{
+    background-color: #d33359;
+}
+
+.mustard {
+    background-color: rgb(253, 187, 64);
+}
+
+.vh100 {
+    height: 100vh;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h50 {
+    height: 50px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.b-0 {
+    bottom: 0;
+}
