@@ -9,7 +9,9 @@
     <title>Create Your Burger</title>
 </head>
 <body>
-    <div class="container-fluid realtive vh100">
+    <div class="container-fluid realtive w-50 vh100 p-0 bg-white">
+
+        <!-- header -->
         <div class="container mustard realtive h100">
             <div class="row">
                 <div class="col-8 p-3 absolute">
@@ -20,15 +22,19 @@
                 </div>
             </div>
         </div>
+        <!-- fine header -->
 
+        <!-- Nominativo panino -->
         <div class="container">
             <div class="row">
                 <div class="col-12 my-4">
-                    <input class="border-0 h100 w100 fs-1 fw-bold" type="text" placeholder="Burger-name">
+                    <input class="border-0 h100 w100 fs-1 fw-bold" type="text" placeholder="Nome del paninozzo">
                 </div>
             </div>
         </div>
+        <!-- fine Nominativo panino -->
 
+        <!-- ingredienti -->
         <div class="container">
             <div class="row gy-3">
                 <div class="col-12">
@@ -71,6 +77,8 @@
                     <span class="text-danger mx-2">add</span>
                 </div>
             </div>
+
+            <!-- codice sconto -->
             <div class="row my-5 d-flex">
                 <div class="col-3">
                     <span class="fw-bold">Discount Coupon</span>
@@ -79,14 +87,18 @@
                     <input class="w100" type="text" placeholder="12345abcdefg">
                 </div>
             </div>
+
+            <!-- bottone calcola -->
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">
                     <button type="button" class="btn btn-warning px-4 fw-bold">Calculate</button>
                 </div>
             </div>
         </div>
+        <!-- fine ingredienti -->
 
-        <div class="container redvelvet b-0 absolute h100">
+        <!-- prezzo finale -->
+        <div class="container redvelvet b-0 w-50 absolute h100">
             <div class="row">
                 <div class="col-8 p-4 absolute">
                     <h2 class="fw-bold text-white">Your Price</h2>
@@ -96,6 +108,7 @@
                 </div>
             </div>
         </div>
+        <!-- fine prezzo finale -->
     </div>
     
 
