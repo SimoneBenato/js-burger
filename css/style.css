@@ -18,6 +18,10 @@
     background-color: rgb(253, 187, 64);
 }
 
+.pink {
+    background-color: #FFF5E2;
+}
+
 .vh100 {
     height: 100vh;
 }
